@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular equaçoes do segundo grau</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <br>
+    <h1>Calculadora de Equaçoes Do Segundo grau</h1>
+
+    <div class="Container">
+        <div class="Valores">
+
+
+            <input id="A" placeholder="Digite o Valor de A" type="text">
+            <br>
+
+            <input id="B" placeholder="Digite o Valor de B" type="text">
+            <br>
+
+            <input id="C" placeholder="Digite o Valor de C" type="text">
+            <br>
+            <br>
+            <button id="calcular" onclick="Calcular()">Calcular Equaçao</button>
+            <br><br>
+
+
+            <div id="resposta" class="solucao">
+                <p id="p1"></p>
+                <p id="p2"></p>
+                <p id="p3"></p>
+                <br><br>
+                
+
+            </div>
+            <button id="clear" onclick="Clear()">Limpar Display</button>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+       
+
+</body>
+
+</html>
